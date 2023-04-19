@@ -12,3 +12,5 @@ abstract class Component implements ComponentStructure {
 
   abstract renderHtml(): void;
 }
+
+export default Component;

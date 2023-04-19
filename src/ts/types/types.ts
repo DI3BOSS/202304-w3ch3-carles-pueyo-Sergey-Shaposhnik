@@ -15,3 +15,8 @@ export interface ComponentStructure {
   element: Element;
   renderHtml(): void;
 }
+export interface ListComponentStructure {
+  series: Series;
+  parentElement: Element;
+  className: string;
+}
